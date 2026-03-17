@@ -1,0 +1,8 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "./venv/Scripts/pylint",
+  "python.languageServer": "Default"
+
+}
