@@ -3,7 +3,13 @@
   "pylint.importStrategy": "fromEnvironment",
   "pylint.path": ["${interpreter}", "-m", "pylint"],
   "pylint.args": ["--rcfile=${workspaceFolder}\\.pylintrc"],
-  "pylint.lintOnChange": true
+  "pylint.lintOnChange": true,
+
+  "files.exclude": {
+    "**/*.pyc": {"when": "$(basename).py"},
+    "**/__pycache__": true,
+    "**/*.pytest_cache": true,
+  }
 }
 
 
