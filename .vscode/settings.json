@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
+  "pylint.importStrategy": "fromEnvironment",
+  "pylint.path": ["${interpreter}", "-m", "pylint"],
+  "pylint.args": ["--rcfile=${workspaceFolder}\\.pylintrc"],
+  "pylint.lintOnChange": true
+}
+
+
+
+
