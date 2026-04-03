@@ -5,8 +5,7 @@ from src.presentation.http_types.http_response import HttpResponse
 
 def request_adapter(request: FlaskRequest, controller: Callable) -> HttpResponse:
 
-    body = None
-    if request.data: body = request.json
+    body = request.get_json(silent=True)
 
     http_request = HttpRequest(
         body=body,

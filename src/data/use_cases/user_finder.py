@@ -24,7 +24,7 @@ class UserFinder(UserFinderInterface):
             raise Exception("Name too long for search")
 
     def __search_user(self, first_name: str) -> List[Users]:
-        users = self.__users_repository.select_user(first_name)
+        users = self.__users_repository.select_users(first_name)
         if users == []: raise Exception("User not found")
         return users
 
