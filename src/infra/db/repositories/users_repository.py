@@ -23,7 +23,7 @@ class UsersRepository(UsersRepositoryInterface):
                 raise exception
 
     @classmethod
-    def select_users(cls, first_name:str) -> List[Users]:
+    def select_user(cls, first_name:str) -> List[Users]:
         with DBconnectionHandler() as database:
             try:
                 users = (
