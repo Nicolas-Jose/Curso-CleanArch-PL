@@ -1,5 +1,11 @@
 # CleanArch (Estudo de Clean Architecture em Python)
 
+Carga horária estimada: 6h28min de conteúdo em vídeo (388 minutos)
+
+Fonte: https://www.youtube.com/playlist?list=PLAgbpJQADBGK0opZ8ZuDX3zDjQck_QKMy
+
+Observação: curso livre, sem emissão de certificado.
+
 Projeto de estudo com foco em separação de camadas (`main`, `presentation`, `data`, `domain`, `infra`) e fluxo HTTP com Flask.
 
 ## Objetivo
